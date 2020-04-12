@@ -1,0 +1,22 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "whereami",
+			"request": "launch",
+			"mainClass": "io.kubepia.whereami.WhereamiApplication",
+			"projectName": "whereami",
+			"env": {
+				"NODE_NAME": "nogada",
+				"HOST_IP": "HOST_IP",
+				"POD_IP": "POD_IP",
+				"NAEMSPACE": "NAEMSPACE",
+				"POD_NAME": "POD_NAME"
+			}
+		}
+	]
+}
