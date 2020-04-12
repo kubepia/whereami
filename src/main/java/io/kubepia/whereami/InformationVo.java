@@ -14,8 +14,8 @@ public class InformationVo {
     @Value("#{environment.POD_IP}")
     String podIP = "default";
 
-    @Value("#{environment.NAEMSPACE}")
-    String namespace = "default";
+    // @Value("#{environment.NAEMSPACE}")
+    // String namespace = "default";
 
     @Value("#{environment.POD_NAME}")
     String podName = "default";
@@ -44,13 +44,13 @@ public class InformationVo {
         this.podIP = podIP;
     }
 
-    public String getNamespace() {
-        return namespace;
-    }
+    // public String getNamespace() {
+    // return namespace;
+    // }
 
-    public void setNamespace(String namespace) {
-        this.namespace = namespace;
-    }
+    // public void setNamespace(String namespace) {
+    // this.namespace = namespace;
+    // }
 
     public String getPodName() {
         return podName;
